@@ -22,9 +22,9 @@ main {
 
 h1 {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 30%;
+    left: 30%;
+    color: #ff66a3;
 }
 
 nav {
@@ -110,4 +110,41 @@ tr:nth-child(even) {
 
 audio {
     width: 100%;
+}
+
+/*Subscribe form*/
+#subscribe {
+    text-align: center;
+    padding: 20px;
+    background-color: #fde2e4;
+}
+
+#confirmation:target {
+    display: block;
+}
+
+#confirmation {
+    display: none;
+    text-align: center;
+    padding: 20px;
+    background-color: #fde2e4;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px;
+    background-color: #ff3385;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+input:invalid {
+    border: 2px solid #ff0000;
 }
