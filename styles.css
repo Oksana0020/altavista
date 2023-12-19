@@ -6,27 +6,27 @@ body {
     color: #333;
 }
 
-header img {
+header img,
+.banner-photo {
     width: 100%;
-    height: auto;
+    height: auto; 
 }
 
 main {
     padding: 20px;
 }
 
-.banner-photo {
-    width: 100%;
-    height: auto;
-}
-
 h1 {
     position: absolute;
-    top: 30%;
-    left: 30%;
-    color: #ff66a3;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ff99cc;
+    background-color: #fff;
+    padding: 10px;
 }
 
+/* Navigation */
 nav {
     background-color: #ff3385;
     color: #fff;
@@ -37,11 +37,11 @@ nav {
 nav a {
     color: #fff;
     text-decoration: none;
-    margin: 0 15px;
+    margin: 0 10px;
 }
 
-main {
-    padding: 20px;
+nav a:hover {
+    color: #800080;
 }
 
 section {
@@ -63,7 +63,6 @@ footer {
 }
 
 /* Schedule */
-
 section#schedule {
     background-color: #fff;
     padding: 20px;
@@ -112,19 +111,9 @@ audio {
     width: 100%;
 }
 
-/*Subscribe form*/
-#subscribe {
-    text-align: center;
-    padding: 20px;
-    background-color: #fde2e4;
-}
-
-#confirmation:target {
-    display: block;
-}
-
+/* Subscribe form */
+#subscribe,
 #confirmation {
-    display: none;
     text-align: center;
     padding: 20px;
     background-color: #fde2e4;
@@ -147,4 +136,28 @@ button {
 
 input:invalid {
     border: 2px solid #ff0000;
+}
+
+/* Media Queries for Responsive Design */
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    nav a {
+        margin: 0 5px;
+    }
+}
+
+/* Tablet */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    nav a {
+        margin: 0 10px;
+    }
 }
