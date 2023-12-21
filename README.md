@@ -127,12 +127,16 @@ After pressing Subscripe on form it brings the user to Not Allowed page
 # Deployment
 
 Altavista Well-being centre project was deployed to a hosting platform GitHub through main branch.
-•	The site was deployed to GitHub pages. The steps to deploy are as follows:
+The site was deployed to GitHub pages. The steps to deploy are as follows:
 In the GitHub repository, navigate to the Settings tab
 From the source section drop-down menu, select the Master Branch
 Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+Link to history of deployment
+https://github.com/Oksana0020/altavista/commits/main/
+
 The live link can be found here
 <https://oksana0020.github.io/altavista/>
+
 # Credits
 ### Payne, S. (2023, 04 21). Resolving the Issue of Content Overlapping Footer. Retrieved from Copyprogramming: <https://copyprogramming.com/howto/how-to-fix-a-footer-overlapping-content?utm_content=cmp-true>
 ### Google Website Responsiveness Checker extension:
@@ -149,3 +153,4 @@ The live link can be found here
 <https://www.w3schools.com/>
 ### All pictures and audios are taken from
 <https://pixabay.com/>
+
