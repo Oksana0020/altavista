@@ -1,13 +1,10 @@
 # Altavista Well-being Centre
-
 Altavista Well-being Centre is a holistic health and mindful living place. It is committed to enhancing mental, emotional, and physical well-being. Altavista offers peaceful retreat support groups, inviting individuals to group Pilates classes. The users are offered free audio samples written on the website to invite to the transformative journey of self-discovery. There is also an option to check the schedule for current classes. If the user subscribes to the email program, he is offered 2 free Pilates classes, which is an advantage for the user. And in such way, the centre can attract new customers. The website is suitable for adult people who are searching for inner peace and care about their well-being.
 
 # FEATURES
-
 ## Landing page
-
 Altavista Well-being Center Landing Page Overview:
-The primary goal of the landing page is to create a positive first impression, resonating with the user's well-being aspirations. The landing page operates as a digital signpost, guiding users toward various facets of Altavista, including mindfulness programs, Pilates training, and other well-being offerings. Clear and concise text ensures that users can quickly understand the site's scope and relevance. The prominent feature of the landing page is a photograph that serves a dual purpose. Firstly, it visually showcases the essence of Altavista, giving users a glimpse of connection to happy restful life like a flower. Secondly, the image incorporates text overlay, providing the name of the center.
+The landing page is creating a positive first impression to the user. The landing page shows that Altavista offers mindfulness programs, Pilates training, and other well-being offerings. Clear and concise text ensures that users can quickly understand the site's scope and relevance. The prominent feature of the landing page is a photograph that serves a dual purpose. Firstly, it visually showcases the essence of Altavista, giving users a glimpse of connection to happy restful life like a flower. Secondly, the image incorporates text overlay, providing the name of the centre.
 Landing page image
 ![Landing page](readmeimages/pic1.jpg)
 
@@ -37,39 +34,39 @@ About us section
 The Submit form needs to congratulate the user after pressing SUBMIT button and present details entered, so JavaScript should be involved.
 
 # Testing
-
 Responsiveness of website on different sizes of gadgets was checked with the help of Google Website Responsiveness Checker extension:
 <https://sites.google.com/view/website-responsiveness-checker>
-496*600
+#### Resolution 496*600
 ![Landing page](readmeimages/pic11.jpg)
 ![Landing page](readmeimages/pic12.jpg)
-800*600
+####Resolution 800*600
 ![Landing page](readmeimages/pic13.jpg)
 ![Landing page](readmeimages/pic14.jpg)
 ![Landing page](readmeimages/pic15.jpg)
-1024*600 tablet
+####Resolution 1024*600 for tablet
 ![Landing page](readmeimages/pic16.jpg)
 ![Landing page](readmeimages/pic17.jpg)
 ![Landing page](readmeimages/pic18.jpg)
-iPad mini
+####Resolution for iPad mini
 ![Landing page](readmeimages/pic19.jpg)
 ![Landing page](readmeimages/pic20.jpg)
-Laptop
+####Resolution for Laptop
 ![Landing page](readmeimages/pic21.jpg)
 ![Landing page](readmeimages/pic22.jpg)
 # Validator Testing
-# Validator testing
-W3C validator
+####W3C validator
 Index.html
 ![Landing page](readmeimages/pic41.jpg)
 Audio.html
 ![Landing page](readmeimages/pic42.jpg)
 Schedule.html
 ![Landing page](readmeimages/pic43.jpg)
-Css
+####CSS Validator
 ![Landing page](readmeimages/pic44.jpg)
-The form part asks for input if nothing is provided by user.
+####Form checking
+The form asks for input if nothing is provided by user.
 ![Landing page](readmeimages/pic45.jpg)
+####Lighthouse
 The website was also checked with Lighthouse
 ![Landing page](readmeimages/pic46.jpg)
 
@@ -86,16 +83,19 @@ The issue was solved by adding padding-bottom in main section according to artic
 
 Payne, S. (2023, 04 21). Resolving the Issue of Content Overlapping Footer. Retrieved from Copyprogramming: <https://copyprogramming.com/howto/how-to-fix-a-footer-overlapping-content?utm_content=cmp-true>
 
-After:
+After fixing the bug:
 ![Landing page](readmeimages/pic27.jpg)
 During final checks index.html and audio.html pages look fine
 ![Landing page](readmeimages/pic28.jpg)
 ![Landing page](readmeimages/pic29.jpg)
-but issue with footer persisted with schedule.html page
+
+But issue with footer persisted with schedule.html page
 Half of schedule was covered by footer
 ![Landing page](readmeimages/pic30.jpg)
+
 It appeared the page was missing main tag. Bug was fixed successfully.
 ![Landing page](readmeimages/pic31.jpg)
+
 There was congratulation message visible if no data was entered by user
 ![Landing page](readmeimages/pic32.jpg)
 So I needed to use display: none by default.
@@ -104,9 +104,11 @@ The media queries had problem for reviews part on index.html page for tablet vie
 ![Landing page](readmeimages/pic33.jpg)
 I fixed it by adjusting media queries
 ![Landing page](readmeimages/pic34.jpg)
+
 During last commits css stopped working
 ![Landing page](readmeimages/pic35.jpg)
 Fixed this bug by adjusting root to css because it was changed during last commit.
+#Fixing mistakes pointed out by potential users
 From the potential users I have got feedback that index page is overwhelmed with “Subscribe now” links, so I have to remove and leave just 2.
 ![Landing page](readmeimages/pic36.jpg)
 Also it was tested that h2 tag had bad readability on audio.html page
@@ -124,7 +126,7 @@ After pressing Subscripe on form it brings the user to Not Allowed page
 
 # Deployment
 
-Altavista Well-being center project was deployed to a hosting platform GitHub through main branch.
+Altavista Well-being centre project was deployed to a hosting platform GitHub through main branch.
 •	The site was deployed to GitHub pages. The steps to deploy are as follows:
 In the GitHub repository, navigate to the Settings tab
 From the source section drop-down menu, select the Master Branch
@@ -145,5 +147,5 @@ The live link can be found here
 <https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRR101+2021_T1/courseware/9645be8635124d76b35692f1f1f6b753/2c4f82a9ef174830aa83ff2cf10f4bc7/?child=first->
 ### Revising usage of different properties at
 <https://www.w3schools.com/>
-### All pictures and videos are taken from
+### All pictures and audios are taken from
 <https://pixabay.com/>
