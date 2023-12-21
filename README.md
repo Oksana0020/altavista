@@ -154,3 +154,7 @@ The live link can be found here
 ### All pictures and audios are taken from
 <https://pixabay.com/>
 
+###Project is written using HTML, CSS
+
+###All pictures are resized to the Web using Photoshop2022
+
