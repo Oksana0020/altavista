@@ -31,13 +31,13 @@ h1 {
     margin: 0;
     color: #FC46AA;
     background-color: #FEC5E5;
-    padding: 2rem;
-    font-size: 3em;
+    padding: 1em;
+    font-size: 2.5em;
 }
 
 main {
-    padding: 20px;
-    padding-bottom: 100px;
+    padding: 1.25em;
+    padding-bottom: 6.25em;
 }
 
 .intro {
@@ -45,51 +45,39 @@ main {
     font-weight: bold;
 }
 
-
-/* Navigation */
 nav {
     background-color: #ff3385;
     color: #fff;
-    padding: 10px;
+    padding: 1em;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 nav a {
     color: #fff;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 1em;
 }
 
 nav a:hover {
     color: #800080;
 }
 
-section {
-    margin-bottom: 20px;
-}
-
-h2 {
-    color: #ff66a3;
-}
-
 footer {
     text-align: center;
-    padding: 10px;
+    padding: 1em;
     background-color: #ff3385;
     color: #fff;
     position: fixed;
     bottom: 0;
     width: 100%;
     flex: 0 0 100px;
-    /*or just height:50px;*/
     margin-top: auto;
 }
 
-/* Schedule */
 section#schedule {
     background-color: #fff;
-    padding: 20px;
+    padding: 1.25em;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -97,13 +85,13 @@ section#schedule {
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 20px;
+    margin-top: 1.25em;
 }
 
 th,
 td {
     border: 1px solid #ddd;
-    padding: 10px;
+    padding: 1.25em;
     text-align: left;
 }
 
@@ -124,9 +112,9 @@ tr:nth-child(even) {
 
 .audio-item {
     width: 100%;
-    max-width: 300px;
-    margin: 10px;
-    padding: 15px;
+    max-width: 60%;
+    margin: 1em;
+    padding: 4em;
     background-color: #ff99bb;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -135,35 +123,32 @@ audio {
     width: 100%;
 }
 
-
-/* Subscribe form */
-
 #subscribe {
     text-align: center;
-    padding: 20px;
+    padding: 1.25em;
     background-color: #fde2e4;
 }
 
 #confirmation {
     display: none;
     text-align: center;
-    padding: 20px;
+    padding: 1.25em;
     background-color: #fde2e4;
 }
 
 input,
 label {
     display: block;
-    margin-bottom: 10px;
-    padding: 8px;
+    margin-bottom: 1.25em;
+    padding: 0.8em;
     width: 30%;
     box-sizing: border-box;
 }
 
 button {
     display: block;
-    margin-top: 20px;
-    padding: 20px;
+    margin-top: 1.25em;
+    padding: 1.25em;
     background-color: #ff3385;
     color: #fff;
     border: none;
@@ -178,7 +163,6 @@ input:invalid {
     display: block;
 }
 
-
 /* Media Queries for Responsive Design */
 
 /* Mobile */
@@ -188,7 +172,7 @@ input:invalid {
     }
 
     nav a {
-        margin: 0 5px;
+        margin: 0 0.5em;
     }
 }
 
@@ -199,7 +183,7 @@ input:invalid {
     }
 
     nav a {
-        margin: 0 10px;
+        margin: 0 1em;
     }
 }
 
@@ -213,17 +197,17 @@ input:invalid {
 .review-box {
     width: 100%;
     max-width: 300px;
-    margin: 10px;
-    padding: 15px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 1em;
+    padding: 1.5em;
+    background-color: #FCBACB;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     text-align: center;
 }
 
 img {
     max-width: 100%;
     height: auto;
-    margin-bottom: 10px;
+    margin-bottom: 1.25em;
 }
 
 @media only screen and (min-width: 600px) {
