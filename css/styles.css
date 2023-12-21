@@ -1,223 +1,234 @@
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #fde2e4;
-    color: #333;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fde2e4;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-size: 1em;
 }
 
 header {
-    width: 100%;
-    position: relative;
+  width: 100%;
+  position: relative;
 }
 
 header img.banner-photo {
-    width: 100%;
-    height: auto;
-    display: block;
-    position: relative;
+  width: 100%;
+  height: auto;
+  display: block;
+  position: relative;
 }
 
 h1 {
-    position: absolute;
-    top: 5%;
-    left: 50%;
-    transform: translateX(-50%);
-    margin: 0;
-    color: #FC46AA;
-    background-color: #FEC5E5;
-    padding: 1em;
-    font-size: 2.5em;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  color: #fc46aa;
+  background-color: #fec5e5;
+  padding: 1em;
+  font-size: 2em;
+}
+
+h2 {
+  color: #ff3385;
 }
 
 main {
-    padding: 1.25em;
-    padding-bottom: 6.25em;
+  padding: 1.25em;
+  padding-bottom: 7em;
 }
 
 .intro {
-    font-family: 'Tempus Sans ITC', sans-serif;
-    font-weight: bold;
+  font-family: "Tempus Sans ITC", sans-serif;
+  font-weight: bold;
 }
 
 nav {
-    background-color: #ff3385;
-    color: #fff;
-    padding: 1em;
-    text-align: center;
-    font-size: 1.5em;
+  background-color: #ff3385;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+  font-size: 1.5em;
 }
 
 nav a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 1em;
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1em;
 }
 
 nav a:hover {
-    color: #800080;
+  color: #800080;
 }
 
 footer {
-    text-align: center;
-    padding: 1em;
-    background-color: #ff3385;
-    color: #fff;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    flex: 0 0 100px;
-    margin-top: auto;
+  text-align: center;
+  padding: 1em;
+  background-color: #ff3385;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  flex: 0 0 100px;
+  margin-top: auto;
 }
 
 section#schedule {
-    background-color: #fff;
-    padding: 1.25em;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding: 1.25em;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 1.25em;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1.25em;
 }
 
 th,
 td {
-    border: 1px solid #ddd;
-    padding: 1.25em;
-    text-align: left;
+  border: 1px solid #ddd;
+  padding: 1.25em;
+  text-align: left;
 }
 
 th {
-    background-color: #ff66a3;
-    color: #fff;
+  background-color: #ff66a3;
+  color: #fff;
 }
 
 tr:nth-child(even) {
-    background-color: #f9f9f9;
+  background-color: #f9f9f9;
 }
 
 .audio-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .audio-item {
-    width: 100%;
-    max-width: 60%;
-    margin: 1em;
-    padding: 4em;
-    background-color: #ff99bb;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 60%;
+  margin: 1em;
+  padding: 4em;
+  background-color: #ff99bb;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 audio {
-    width: 100%;
+  width: 100%;
 }
 
 #subscribe {
-    text-align: center;
-    padding: 1.25em;
-    background-color: #fde2e4;
+  text-align: center;
+  padding: 1.25em;
+  background-color: #fde2e4;
 }
 
 #confirmation {
-    display: none;
-    text-align: center;
-    padding: 1.25em;
-    background-color: #fde2e4;
+  display: none;
+  text-align: center;
+  padding: 1.25em;
+  background-color: #fde2e4;
 }
 
 input,
 label {
-    display: block;
-    margin-bottom: 1.25em;
-    padding: 0.8em;
-    width: 30%;
-    box-sizing: border-box;
+  display: block;
+  margin-bottom: 1.25em;
+  padding: 0.5em;
+  width: 30%;
+  box-sizing: border-box;
 }
 
 button {
-    display: block;
-    margin-top: 1.25em;
-    padding: 1.25em;
-    background-color: #ff3385;
-    color: #fff;
-    border: none;
-    cursor: pointer;
+  display: block;
+  margin-top: 1.25em;
+  padding: 1.25em;
+  background-color: #ff3385;
+  color: #fff;
+  border: none;
+  cursor: pointer;
 }
 
 input:invalid {
-    border: 2px solid #ff0000;
+  border: 2px solid #ff0000;
 }
 
-#subscribeForm:target+#confirmation {
-    display: block;
-}
-
-/* Media Queries for Responsive Design */
-
-/* Mobile */
-@media only screen and (max-width: 600px) {
-    h1 {
-        font-size: 1.5em;
-    }
-
-    nav a {
-        margin: 0 0.5em;
-    }
-}
-
-/* Tablet */
-@media only screen and (min-width: 601px) and (max-width: 900px) {
-    h1 {
-        font-size: 2em;
-    }
-
-    nav a {
-        margin: 0 1em;
-    }
+#subscribeForm:target + #confirmation {
+  display: block;
 }
 
 /*Reviews*/
 .review-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .review-box {
-    width: 100%;
-    max-width: 300px;
-    margin: 1em;
-    padding: 1.5em;
-    background-color: #FCBACB;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    text-align: center;
+  width: 100%;
+  max-width: 300px;
+  margin: 1em;
+  padding: 1.5em;
+  background-color: #fcbacb;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  text-align: center;
 }
 
 img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 1.25em;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1.25em;
 }
 
-@media only screen and (min-width: 600px) {
-    .review-box {
-        width: calc(50% - 20px);
-    }
+/* Media Queries */
+/* Mobile */
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 1em;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1em;
+  }
+
+  nav a {
+    margin: 0.2em 0;
+  }
+
+  .review-box {
+    width: calc(50% - 20px);
+  }
 }
 
-@media only screen and (min-width: 900px) {
-    .review-box {
-        width: calc(25% - 20px);
-    }
+/* Tablet */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  nav {
+    font-size: 1em;
+  }
+
+  nav a {
+    margin: 0 1em;
+  }
+
+  .review-box {
+    width: calc(40% - 20px);
+  }
 }
