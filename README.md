@@ -162,19 +162,26 @@ The live link can be found here
 https://oksana0020.github.io/altavista/
 
 # Credits
+
 ### Payne, S. (2023, 04 21). Resolving the Issue of Content Overlapping Footer. Retrieved from Copyprogramming: <https://copyprogramming.com/howto/how-to-fix-a-footer-overlapping-content?utm_content=cmp-true>
 ### Google Website Responsiveness Checker extension:
+
 <https://sites.google.com/view/website-responsiveness-checker>
+
 ### W3 validator:
 <https://validator.w3.org/#validate_by_input>
+
 ### CSS jigsaw validator:
 <https://jigsaw.w3.org/css-validator/#validate_by_input>
+
 ### <https://github.com/Code-Institute-Solutions/readme-template>
 
 ### Map and Social Media links are taken from Coders Coffeehouse example
 <https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRR101+2021_T1/courseware/9645be8635124d76b35692f1f1f6b753/2c4f82a9ef174830aa83ff2cf10f4bc7/?child=first->
+
 ### Revising usage of different properties at
 <https://www.w3schools.com/>
+
 ### All pictures and audios are taken from
 https://pixabay.com/
 
@@ -224,37 +231,46 @@ The Submit form needs to congratulate the user after pressing SUBMIT button and 
 # Testing
 Responsiveness of website on different sizes of gadgets was checked with the help of Google Website Responsiveness Checker extension:
 <https://sites.google.com/view/website-responsiveness-checker>
+
 #### Resolution 496*600
 ![Landing page](readmeimages/pic11.jpg)
 ![Landing page](readmeimages/pic12.jpg)
-####Resolution 800*600
+
+#### Resolution 800*600
 ![Landing page](readmeimages/pic13.jpg)
 ![Landing page](readmeimages/pic14.jpg)
 ![Landing page](readmeimages/pic15.jpg)
-####Resolution 1024*600 for tablet
+
+#### Resolution 1024*600 for tablet
 ![Landing page](readmeimages/pic16.jpg)
 ![Landing page](readmeimages/pic17.jpg)
 ![Landing page](readmeimages/pic18.jpg)
-####Resolution for iPad mini
+
+#### Resolution for iPad mini
 ![Landing page](readmeimages/pic19.jpg)
 ![Landing page](readmeimages/pic20.jpg)
-####Resolution for Laptop
+
+#### Resolution for Laptop
 ![Landing page](readmeimages/pic21.jpg)
 ![Landing page](readmeimages/pic22.jpg)
+
 # Validator Testing
-####W3C validator
+#### W3C validator
 Index.html
 ![Landing page](readmeimages/pic41.jpg)
 Audio.html
 ![Landing page](readmeimages/pic42.jpg)
 Schedule.html
 ![Landing page](readmeimages/pic43.jpg)
-####CSS Validator
+
+#### CSS Validator
 ![Landing page](readmeimages/pic44.jpg)
-####Form checking
+
+#### Form checking
 The form asks for input if nothing is provided by user.
 ![Landing page](readmeimages/pic45.jpg)
-####Lighthouse
+
+#### Lighthouse
 The website was also checked with Lighthouse
 ![Landing page](readmeimages/pic46.jpg)
 
@@ -296,7 +312,8 @@ I fixed it by adjusting media queries
 During last commits css stopped working
 ![Landing page](readmeimages/pic35.jpg)
 Fixed this bug by adjusting root to css because it was changed during last commit.
-#Fixing mistakes pointed out by potential users
+
+# Fixing mistakes pointed out by potential users
 From the potential users I have got feedback that index page is overwhelmed with “Subscribe now” links, so I have to remove and leave just 2.
 ![Landing page](readmeimages/pic36.jpg)
 Also it was tested that h2 tag had bad readability on audio.html page
@@ -329,6 +346,7 @@ The live link can be found here
 ### Payne, S. (2023, 04 21). Resolving the Issue of Content Overlapping Footer. Retrieved from Copyprogramming: <https://copyprogramming.com/howto/how-to-fix-a-footer-overlapping-content?utm_content=cmp-true>
 ### Google Website Responsiveness Checker extension:
 <https://sites.google.com/view/website-responsiveness-checker>
+
 ### W3 validator:
 <https://validator.w3.org/#validate_by_input>
 ### CSS jigsaw validator:
