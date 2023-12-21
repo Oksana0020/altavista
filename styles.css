@@ -1,30 +1,50 @@
 body {
     font-family: 'Arial', sans-serif;
-    margin: 10px;
-    padding: 10px;
+    margin: 0;
+    padding: 0;
     background-color: #fde2e4;
     color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 
-header img,
-.banner-photo {
+header {
     width: 100%;
-    height: auto; 
+    position: relative;
+}
+
+header img.banner-photo {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    color: #FC46AA;
+    background-color: #FEC5E5;
+    padding: 2rem;
+    font-size: 3em;
 }
 
 main {
     padding: 20px;
+    padding-bottom: 100px;
 }
 
-h1 {
-    position: relative;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #ff99cc;
-    background-color: #fff;
-    padding: 10px;
+.intro {
+    font-family: 'Tempus Sans ITC', sans-serif;
+    font-weight: bold;
 }
+
 
 /* Navigation */
 nav {
@@ -32,6 +52,7 @@ nav {
     color: #fff;
     padding: 10px;
     text-align: center;
+    font-size: 2em;
 }
 
 nav a {
@@ -60,6 +81,9 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    flex: 0 0 100px;
+    /*or just height:50px;*/
+    margin-top: auto;
 }
 
 /* Schedule */
@@ -121,14 +145,15 @@ audio {
 }
 
 #confirmation {
-    display: none; 
+    display: none;
     text-align: center;
     padding: 20px;
     background-color: #fde2e4;
 }
 
-input, label {
-    display: block; 
+input,
+label {
+    display: block;
     margin-bottom: 10px;
     padding: 8px;
     width: 30%;
@@ -136,8 +161,8 @@ input, label {
 }
 
 button {
-    display: block; 
-    margin-top: 20px; 
+    display: block;
+    margin-top: 20px;
     padding: 20px;
     background-color: #ff3385;
     color: #fff;
@@ -149,7 +174,7 @@ input:invalid {
     border: 2px solid #ff0000;
 }
 
-#subscribeForm:target + #confirmation {
+#subscribeForm:target+#confirmation {
     display: block;
 }
 
@@ -180,35 +205,35 @@ input:invalid {
 
 /*Reviews*/
 .review-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-        }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
 .review-box {
-            width: 100%;
-            max-width: 300px;
-            margin: 10px;
-            padding: 15px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
 
 img {
-            max-width: 100%;
-            height: auto;
-            margin-bottom: 10px;
-        }
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
 
-        @media only screen and (min-width: 600px) {
-            .review-box {
-                width: calc(50% - 20px);
-            }
-        }
+@media only screen and (min-width: 600px) {
+    .review-box {
+        width: calc(50% - 20px);
+    }
+}
 
-        @media only screen and (min-width: 900px) {
-            .review-box {
-                width: calc(25% - 20px);
-            }
-        }
+@media only screen and (min-width: 900px) {
+    .review-box {
+        width: calc(25% - 20px);
+    }
+}
