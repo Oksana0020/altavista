@@ -13,21 +13,26 @@ Landing page image
 The navigation of the Alta Vista Well-being Centre website is designed to provide users with easy access to different sections and information.
 ![Landing page](readmeimages/pic2.jpg)
 The "Home" link is the first option in the navigation bar, likely serving as a way to return to the main or introductory section of the website. This next navigation section Pilates provides information about Pilates training offered at Altavista. Users can learn about the unique experience provided at the well-being centre and get familiar with current schedule.
+
 ![Landing page](readmeimages/pic3.jpg)
 ![Landing page](readmeimages/pic4.jpg)
+
 Mindfulness Programs section of navigation bar brings the user to the appropriate section of the main page which focuses on Mindfulness Awareness Programs offered in the centre, emphasizing the importance of finding inner peace in today's fast world. Users can join one of programs by email to cultivate mindfulness and reduce stress.
 ![Landing page](readmeimages/pic5.jpg)
 The Altavista audio link directs users to a separate page ("audio.html") where they can access free daily audio resources aimed at promoting mindfulness and relaxation. The content includes audio practices like "Calm of Cosmos", "Dreamlike tranquility" etc.
 ![Landing page](readmeimages/pic6.jpg)
 ![Landing page](readmeimages/pic7.jpg)
+
 The Subscribe section bring the user to specific section on index page and encourages users to subscribe to Alta Vista's Free Mindful Awareness Email Program. By subscribing, users can receive two free Pilates lessons in the studio. The subscription form includes fields for the user's first name, last name, email, and phone number which makes the process easy to follow.
 ![Landing page](readmeimages/pic8.jpg)
+
 “Reviews” section provides feedbacks from different customers, so it engages new users to attend Altavista Mindful Centre.
 ![Landing page](readmeimages/pic9.jpg)
+
 The "Contact Us" navigation section provides the link to the information placed on the Home page on how users can physically visit Alta Vista Well-being Centre. It includes the address details, inviting individuals to start their transformative soul journey at the centre.
 ![Landing page](readmeimages/pic10.jpg)
+
 The header shows the name of the centre. Firstly the colour I chose was pink which had bad visibility, so I had to change it to purple.
-About us section
 
 # Features left to implement
 The Submit form needs to congratulate the user after pressing SUBMIT button and present details entered, so JavaScript should be involved.
@@ -44,7 +49,8 @@ https://sites.google.com/view/website-responsiveness-checker
 ![Landing page](readmeimages/pic13.jpg)
 ![Landing page](readmeimages/pic14.jpg)
 ![Landing page](readmeimages/pic15.jpg)
-####Resolution 1024*600 for tablet
+
+#### Resolution 1024*600 for tablet
 ![Landing page](readmeimages/pic16.jpg)
 ![Landing page](readmeimages/pic17.jpg)
 ![Landing page](readmeimages/pic18.jpg)
