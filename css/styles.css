@@ -85,6 +85,23 @@ footer {
     margin-top: auto;
 }
 
+ul.social-media-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+ul.social-media-icons li {
+    margin: 0 10px;
+}
+
+ul.social-media-icons li a {
+    color: inherit;
+    font-size: 24px;
+}
+
+
 section#schedule {
     background-color: #fff;
     padding: 1.25em;
@@ -292,6 +309,7 @@ img {
 
     #nav-toggle {
         display: block;
+        width: 3em;
         position: absolute;
         top: 1em;
         right: 1em;
