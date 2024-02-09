@@ -17,27 +17,30 @@
 
 <body>
 
-    <nav>
-        <a href="#home">Home</a>
-        <a href="schedule.html">Pilates</a>
-        <a href="#mindfulness">Mindfulness Programs</a>
-        <a href="audio.html">Altavista audio</a>
-        <a href="#subscribe">Subscribe </a>
-        <a href="#reviews">Reviews</a>
-        <a href="#contact">Contact Us</a>
-    </nav>
-
     <header>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="schedule.html">Pilates</a>
+            <a href="#mindfulness">Mindfulness Programs</a>
+            <a href="audio.html">Altavista audio</a>
+            <a href="#subscribe">Subscribe</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
         <button id="nav-toggle" aria-label="Toggle Navigation Menu">&#9776;</button>
 
         <figure>
             <img src="images/image1.jpg" alt="Banner Photo with a flower" class="banner-photo">
             <!-- This picture is taken from free recommended resource https://pixabay.com/photos/spring-flower-trickle-non-nature-5016266/ -->
         </figure>
-        <h1>Altavista Well-being Center</h1>
+
     </header>
 
+
+
     <main>
+        <h1>Altavista Well-being Center</h1>
         <h2>Your Journey to Health and Happiness</h2>
         <p class="intro">"Alta Vista," derived from Spanish, translates to "look down."
             Accept our unique invitation to introspection.
@@ -230,11 +233,11 @@ https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRR101+2021_T1/c
 
         <p>&copy; 2023 Altavista Well-being Center</p>
     </footer>
-</body>
+    <script>
+        const navMenu = document.querySelector('nav');
+        const navToggle = document.getElementById('nav-toggle');
 
-</html> const navMenu = document.querySelector('nav');
-
-        navToggle.addEventListener('click', function() {
+        navToggle.addEventListener('click', function () {
             navMenu.classList.toggle('active');
         });
     </script>

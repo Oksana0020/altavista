@@ -15,6 +15,7 @@ body {
 header {
     width: 100%;
     position: relative;
+    text-align: center;
 }
 
 header img.banner-photo {
@@ -25,11 +26,7 @@ header img.banner-photo {
 }
 
 h1 {
-    position: absolute;
-    top: 5%;
-    left: 50%;
-    transform: translateX(-50%);
-    margin: 0;
+    margin-top: 20px;
     color: #fc46aa;
     background-color: #fec5e5;
     padding: 1em;
@@ -51,14 +48,14 @@ main {
 }
 
 nav {
-    background-color: #ff3385;
-    color: #fff;
     padding: 1em;
     text-align: center;
     font-size: 1.5em;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    background-color: #ff3385;
+    color: #fff;
 }
 
 nav a {
@@ -195,51 +192,25 @@ img {
 }
 
 #nav-toggle {
-    display: block;
-    position: absolute;
-    top: 1em;
-    right: 1em;
-    color: #fff;
-    font-size: 1.5em;
-    cursor: pointer;
-    z-index: 1001;
+    display: none;
 }
 
-/* For mobile devices */
-@media only screen and (max-width: 600px) {
+/* Media query for mobile view */
+@media only screen and (max-width: 768px) {
     nav {
         display: none;
-        /* Hide navigation by default on mobile */
         flex-direction: column;
-        /* Display navigation items vertically */
-        align-items: center;
-        /* Center align navigation items */
-        font-size: 1em;
-        position: fixed;
-        /* Keep navigation fixed at the top of the screen */
-        top: 0;
+        position: absolute;
+        top: 100%;
         left: 0;
         width: 100%;
-        background-color: #ff3385;
-        z-index: 1000;
-        padding: 1em 0;
+        #ff3385;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        z-index: 1;
     }
 
     nav.active {
         display: flex;
-        /* Show navigation when active class is applied */
-        flex-direction: row;
-        /* Display navigation items horizontally */
-        justify-content: center;
-        /* Center align navigation items */
-    }
-
-    nav a {
-        color: #fff;
-        text-decoration: none;
-        margin: 0.5em 0;
-        margin: 0 1em;
-        /* Adjust margin for horizontal layout */
     }
 
     #nav-toggle {
@@ -250,9 +221,17 @@ img {
         color: #fff;
         font-size: 1.5em;
         cursor: pointer;
+        z-index: 1001;
+    }
+
+    figure {
+        margin-top: 60px;
+    }
+
+    h1 {
+        margin-top: 10px;
     }
 }
-
 
 /* Tablet */
 @media only screen and (min-width: 601px) {
@@ -261,7 +240,7 @@ img {
     }
 
     nav {
-        font-size: 1em;
+        font-size: 1.5em;
     }
 
     nav a {
