@@ -204,7 +204,8 @@ img {
         top: 100%;
         left: 0;
         width: 100%;
-        #ff3385;
+        background-color: #ff3385;
+        color: #fff;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         z-index: 1;
     }
@@ -231,27 +232,19 @@ img {
     h1 {
         margin-top: 10px;
     }
+
+    main {
+        margin-top: 140px;
+    }
 }
 
 /* Tablet */
-@media only screen and (min-width: 601px) {
+@media only screen and (max-width: 1024px) {
     h1 {
         font-size: 2em;
     }
 
-    nav {
-        font-size: 1.5em;
-    }
-
-    nav a {
-        margin: 0 1em;
-    }
-
     .review-box {
         width: calc(40% - 20px);
-    }
-
-    #nav-toggle {
-        display: none;
     }
 }
