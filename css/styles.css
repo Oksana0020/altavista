@@ -56,6 +56,9 @@ nav {
     padding: 1em;
     text-align: center;
     font-size: 1.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 nav a {
@@ -191,29 +194,65 @@ img {
     margin-bottom: 1.25em;
 }
 
-/* Media Queries */
-/* Mobile */
+#nav-toggle {
+    display: block;
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    color: #fff;
+    font-size: 1.5em;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+/* For mobile devices */
 @media only screen and (max-width: 600px) {
-    h1 {
+    nav {
+        display: none;
+        /* Hide navigation by default on mobile */
+        flex-direction: column;
+        /* Display navigation items vertically */
+        align-items: center;
+        /* Center align navigation items */
         font-size: 1em;
+        position: fixed;
+        /* Keep navigation fixed at the top of the screen */
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #ff3385;
+        z-index: 1000;
+        padding: 1em 0;
     }
 
-    nav {
+    nav.active {
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        font-size: 1em;
+        /* Show navigation when active class is applied */
+        flex-direction: row;
+        /* Display navigation items horizontally */
+        justify-content: center;
+        /* Center align navigation items */
     }
 
     nav a {
-        margin: 0.2em 0;
+        color: #fff;
+        text-decoration: none;
+        margin: 0.5em 0;
+        margin: 0 1em;
+        /* Adjust margin for horizontal layout */
     }
 
-    .review-box {
-        width: calc(50% - 20px);
+    #nav-toggle {
+        display: block;
+        position: absolute;
+        top: 1em;
+        right: 1em;
+        color: #fff;
+        font-size: 1.5em;
+        cursor: pointer;
     }
-
 }
+
 
 /* Tablet */
 @media only screen and (min-width: 601px) {
@@ -235,42 +274,5 @@ img {
 
     #nav-toggle {
         display: none;
-    }
-}
-
-/* Mobile */
-@media only screen and (max-width: 600px) {
-    nav {
-        display: none;
-        flex-direction: column;
-        align-items: center;
-        font-size: 1em;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        background-color: #ff3385;
-        z-index: 1000;
-        padding: 1em 0;
-    }
-
-    nav.active {
-        display: flex;
-    }
-
-    nav a {
-        color: #fff;
-        text-decoration: none;
-        margin: 0.5em 0;
-    }
-
-    #nav-toggle {
-        display: block;
-        position: absolute;
-        top: 1em;
-        right: 1em;
-        color: #fff;
-        font-size: 1.5em;
-        cursor: pointer;
     }
 }
