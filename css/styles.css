@@ -28,7 +28,6 @@ h1 {
 header {
     position: relative;
     text-align: center;
-    /* Center header content */
 }
 
 header img.banner-photo {
@@ -172,6 +171,70 @@ input:invalid {
 
 #subscribeForm:target+#confirmation {
     display: block;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    width: 100%;
+    margin-bottom: 0.5em;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+
+button {
+    width: 100%;
+    max-width: 300px;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    box-sizing: border-box;
+}
+
+
+#subscribe {
+    text-align: center;
+    padding: 1.25em;
+    background-color: #fde2e4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#subscribeForm {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input,
+button {
+    padding: 0.5em 1em;
+    border: none;
+    background-color: #ff3385;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input:focus,
+button:focus {
+    outline: none;
+}
+
+input:invalid {
+    border: 2px solid #ff0000;
+}
+
+button:hover {
+    background-color: #800080;
 }
 
 /*Reviews*/
