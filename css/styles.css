@@ -412,12 +412,17 @@ img {
         font-size: 2em;
     }
 
-    .review-box {
-        width: calc(40% - 20px);
-    }
-
     nav {
         display: flex;
-        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
     }
+
+    nav a {
+        margin: 0.5em;
+    }
+
+.review-box {
+    width: calc(40% - 20px);
+}
 }
