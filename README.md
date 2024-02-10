@@ -1,7 +1,9 @@
 ### Altavista Well-being Centre
 
 Altavista Well-being Centre is a holistic health and mindful living place. It is committed to enhancing mental, emotional, and physical well-being. Altavista offers peaceful retreat support groups, inviting individuals to group Pilates classes.
+
 ![Device mockup](readmeimages/image1.png)
+
 The users are offered free audio samples written on the website to invite to the transformative journey of self-discovery. There is also an option to check the schedule for current classes. If the user subscribes to the email program, he is offered 2 free Pilates classes, which is an advantage for the user. And in such way, the centre can attract new customers. The website is suitable for adult people who are searching for inner peace and care about their well-being.
 Link to Live project [Live Project](https://oksana0020.github.io/altavista/)
 
@@ -36,6 +38,7 @@ User Stories:
 ## Wireframe Design
 
 •	The wireframe viewpoint for the website was from wireframe.cc
+
 ![Wireframe](readmeimages/image2.png)
 
 ## Design
@@ -66,27 +69,36 @@ The layout of the website is structured for intuitive navigation, with a clear h
 
 Altavista Well-being Center Landing Page Overview: The landing page is creating a positive first impression to the user. The landing page shows that Altavista offers mindfulness programs, Pilates training, and other well-being offerings. Clear and concise text ensures that users can quickly understand the site's scope and relevance. The prominent feature of the landing page is a photograph that serves a dual purpose. Firstly, it visually showcases the essence of Altavista, giving users a glimpse of connection to happy restful life like a flower. Secondly, the image incorporates text overlay, providing the name of the centre.
 Landing page image
+
 ![Homepage](readmeimages/image4.png)
+
 ![Homepage](readmeimages/image3.png)
 
 The navigation of the Alta Vista Well-being Centre website is designed to provide users with easy access to different sections and information.  The "Home" link is the first option in the navigation bar, likely serving as a way to return to the main or introductory section of the website.
 Mindfulness Programs section of navigation bar brings the user to the appropriate section of the main page which focuses on Mindfulness Awareness Programs offered in the centre, emphasizing the importance of finding inner peace in today's fast world. Users can join one of programs by email.
+
 ![Homepage](readmeimages/image5.png)
 
 There is section on the home page with reviews from existing customers
+
 ![Homepage](readmeimages/image6.png)
 
 The Subscribe section bring the user to specific section on index page and encourages users to subscribe to Alta Vista's Free Mindful Awareness Email Program. By subscribing, users can receive two free Pilates lessons in the studio. The subscription form includes fields for the user's first name, last name, email, and phone number which makes the process easy to follow.
+
 ![Homepage](readmeimages/image7.png)
 
 Contact us section contains map and current address of the center.
+
 ![Homepage](readmeimages/image8.png)
 
 The next page Pilates provides information about Pilates training offered at Altavista. Users can learn about the unique experience provided at the well-being centre and get familiar with current schedule.
+
 ![Pilates](readmeimages/image9.png)
+
 ![Pilates](readmeimages/image10.png)
 
 The Altavista audio link directs users to a separate page ("audio.html") where they can access free daily audio resources aimed at promoting mindfulness and relaxation. The content includes various audio practices.
+
 ![Audio](readmeimages/image11.png)
 
 ### Potential Future features
@@ -116,14 +128,17 @@ Platforms
 •	On mobile phone screen sizes menu is changed into toggle placed on the right side, once clicked menu appears in the column after the banner page.
 •	On tablets and desktop screen sizes there is regular menu on top of the page before the banner photo.
 Responsiveness was also checked with <https://www.responsivedesignchecker.com/>
+
 Mobile device
 •	![Audio](readmeimages/image14.png)
+
 Tablet
 •	![Audio](readmeimages/image15.png)
-DESKTOP
+
+Desktop
 •	![Audio](readmeimages/image16.png)
 
-## UX
+### UX
 
 ### Site Goals
 
@@ -136,7 +151,9 @@ The site wants to attract users that want to explore mindful programmes and pila
 •	JavaScript (JSHint)
 
 Lighthouse
+
 ![Audio](readmeimages/image17.png)
+
 I tested the website using Chrome, Firefox and Microsoft Edge.
 Form testing
 Location	Test	Expected Result	Result
@@ -170,16 +187,24 @@ The site was deployed to GitHub pages. The steps to deploy are:
 •	Return to your repository and wait a few minutes.
 •	Go to the "Deployments" section in the right sidebar.
 •	Click on the link to see your deployed repository.
+
 Live link [here](https://oksana0020.github.io/altavista/)
 
 ## Credits
 
 •	www.w3schools.com to check CSS and HTML properties
+
 •	www.responsivedesignchecker.com to test the responsiveness of the website.
+
 •	Referring to Love Running project from CodeInstitute as example of developing live website
+
 •	Payne, S. (2023, 04 21). Resolving the Issue of Content Overlapping Footer. Retrieved from Copyprogramming: <https://copyprogramming.com/howto/how-to-fix-a-footer-overlapping-content?utm_content=cmp-true>
+
 •	Google Website Responsiveness Checker extension:
 <https://sites.google.com/view/website-responsiveness-checker>
+
 •	All picture, audios are taken from <https://pixabay.com/>
+
 •	All pictures are resized for the Web using Photoshop 2022
+
 •	Map example is taken from Coders Coffeehouse <https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRR101+2021_T1/courseware/9645be8635124d76b35692f1f1f6b753/2c4f82a9ef174830aa83ff2cf10f4bc7/?child=first->
