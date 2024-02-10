@@ -415,4 +415,9 @@ img {
     .review-box {
         width: calc(40% - 20px);
     }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+    }
 }
